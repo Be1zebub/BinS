@@ -4,8 +4,8 @@ BINary Serialization format - based on niknaks bitbuffers
 
 usage:
 ```lua
-	local encoded_binary = bins.encode(tbl)
-	local decoded_table = bins.decode(encoded_binary)
+local encoded_binary = bins.encode(tbl)
+local decoded_table = bins.decode(encoded_binary)
 ```
 
 it doesnt have known gmod json issues
